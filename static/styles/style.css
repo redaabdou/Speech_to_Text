@@ -1,0 +1,91 @@
+h1, p, input {
+    font-family: 'Lato', sans-serif;
+}
+
+#speechContainer {
+    box-shadow:inset 0px 0px 14px -3px #f2fadc;
+    background:linear-gradient(to bottom, #ffffff 5%, #e6e6e6 100%);
+    background-color:#ffffff;
+    border-radius:6px;
+    border:1px solid #b2b8ad;
+    display:inline-block;
+    cursor:pointer;
+    color:#757d6f;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ced9bf;
+
+}
+
+div.big_div {
+    height: 10em;
+    position: relative }
+div.big_div {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+
+
+#submitButton {
+    box-shadow:inset 0px 1px 0px 0px #97c4fe;
+    background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+    background-color:#3d94f6;
+    border-radius:6px;
+    border:1px solid #337fed;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #1570cd;
+}
+
+#submitButton:active {
+    position:relative;
+    top:1px;
+    }
+
+#submitButton:hover {
+    background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+    background-color:#1e62d0;
+}
+
+#speechTranscriptContainer {
+    margin-top: 20px;
+}
+
+#speechText {
+    font-size: 18px;
+    width: 500px;
+}
+
+
+.import {
+    box-shadow:inset 0px 0px 14px -3px #f2fadc;
+    background:linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
+    background-color:#dbe6c4;
+    border-radius:6px;
+    border:1px solid #b2b8ad;
+    display:inline-block;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ced9bf;
+}
+
+.import:active {
+    position:relative;
+    top:1px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Speech Recognition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+
+<body style="background-color:midnightblue;">
+<center>
+  <h1 style="color:white";>MATIOUS</h1>
+  <p style="color:white";>WE BREATHE DIGITAL IN EVERY POSSIBLE WAY.</p>
+</center>
+<div class="big_div">
+    <div id="speechContainer">
+        <center>
+        <h1>Speech Recognition</h1>
+        <br><br>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="file" class="import"/>
+            <br><br><br><br>
+            <input type="submit" id="submitButton" value="Get Text"/>
+            <br><br>
+        </form>
+
+        {% if text != "" %}
+            <div id="speechTranscriptContainer">
+                <h1>Audio Text</h1>
+                <p id="speechText">{{ text }}</p>
+            </div>
+        {% endif %}
+        </center>
+    </div>
+</div>
+
+</body>
+</html>
